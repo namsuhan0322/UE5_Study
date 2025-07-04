@@ -22,12 +22,10 @@ AMyActor::AMyActor() : TotalDamage(10), DamageTimeInSeconds(1.2f)
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
